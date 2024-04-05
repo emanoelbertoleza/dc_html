@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro HTML</title>
+    <style>
+        body{
+            padding-bottom: 350px;
+            background-color: #627254;
+            font-style: normal;
+            color:#DDDDDD;
+        }
+        #caixa{
+            display: flex;
+            height: 100px;
+            width: 100px;
+            background-color: rgb(125, 5, 5);
+            border-color: black;
+            border-radius: 12px;
+            color: rgb(255, 255, 255);
+            padding: 40px;
+            text-align: center;
+            margin: 10px;
+            justify-content: center;
+            border: 2px solid black;
+            font-size: 23px;
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Emanoel Bertoleza</h1>
+    <h5>Aula de html - Digital College | Turma FS36</h5>
+    <p>Minha primeira página</p>
+
+    <!-- Tag "a" é para links, onde a propriedade "href" recebe o valor do link e a propriedade "target" como o link será aberto -->
+    <a href="https://g1.globo.com/ce/ceara/" target="_blank"> Acesse o G1 Ceará</a>
+    <p> <a href="formulário_usuário.html" target="_blank"> Cadastre-se </a> </p>
+
+    <!-- Tags inline -->
+    <hr/>
+    <img src="img/Super_Saturno.jpg" alt="Super Saturno" width="259px"/>
+    <img src="img/m104.jpg" alt="m104" width="300px">
+    <hr/>
+    <div id="caixa">
+        <h2>teste</h2>
+    </div>
+    
+    <div class="center">
+        <span>Testando span centralizado</span>
+        <h3>Testando Centralizado</h3>
+    </div>
+    <ol>
+        <li>
+            <pre>git status</pre>
+        </li>
+        <li>
+            <pre>git add .</pre>
+        </li>
+        <li>
+            <pre>git sttaus</pre>
+        </li>
+    </ol>
+
+    <ul>
+        <li>Pastel </li>
+        <li>Pastel </li>
+        <li>Pastel </li>
+        <li>Pastel </li>
+    </ul>
+
+    <table style="border: 1px solid black; width: 50%;">
+        <caption>Lista de alunos</caption>
+        <tr>
+          <th style="background-color: #000000;">Nome</th>
+          <th style="background-color: #000000;">Idade</th>
+          <th style="background-color: #000000;">Cidade</th>
+        </tr>
+        <tr>
+          <td>Emanoel</td>
+          <td>35</td>
+          <td>Aldeota</td>
+        </tr>
+        <tr>
+          <td>Pedro</td>
+          <td>18</td>
+          <td>Parquelândia</td>
+        </tr>
+        <tr>
+          <td>Breno</td>
+          <td>22</td>
+          <td>Cidade dos funcionários</td>
+        </tr>
+      </table>
+</body>
+</html>
